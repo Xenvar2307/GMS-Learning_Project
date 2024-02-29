@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x = o_Player.x
-y = o_Player.y
+x = obj_player.x
+y = obj_player.y
 
 image_angle = point_direction(x,y,mouse_x,mouse_y)
 
-if instance_exists(o_Player)
+if instance_exists(obj_player)
 {
-	if o_Player.attack_timer > 0
+	if obj_player.attack_timer > 0
 	{
 	recharge = true
 	}

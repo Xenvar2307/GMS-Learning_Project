@@ -26,7 +26,7 @@ if (_key_attack)
 	{
 		//Attack
 		attack_timer = attack_timer_default;
-		var _b = instance_create_layer(x,y,"Bullet", o_Bullet);
+		var _b = instance_create_layer(x,y,"Bullet", obj_bullet);
 		_b.direction = point_direction(x,y,mouse_x, mouse_y)
 		
 	}

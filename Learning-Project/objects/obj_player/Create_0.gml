@@ -16,8 +16,8 @@ attack_timer_default = 20;
 death = false
 
 
-instance_create_layer(x,y, "Bullet", o_Gun)
-instance_create_layer(x,y,"Instances", o_Spawner)
+instance_create_layer(x,y, "Bullet", obj_gun)
+instance_create_layer(x,y,"Instances", obj_spawner)
 
 
 

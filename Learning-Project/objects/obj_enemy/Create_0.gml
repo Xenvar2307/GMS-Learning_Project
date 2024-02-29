@@ -3,7 +3,7 @@
 
 speed = 1.75;
 
-direction = point_direction(x,y,o_Player.x, o_Player.y);
+direction = point_direction(x,y,obj_player.x, obj_player.y);
 
 hp = 10;
 hp_max = 10;

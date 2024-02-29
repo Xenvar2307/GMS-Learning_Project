@@ -17,7 +17,7 @@ if enemy_spawn == true
 	randomize();
 	enemy_spawn_x = x + irandom_range(-room_width, room_width)
 	enemy_spawn_y = y + irandom_range(-room_height, room_height)
-	instance_create_layer(enemy_spawn_x, enemy_spawn_y, "Instances", o_Enemy)
+	instance_create_layer(enemy_spawn_x, enemy_spawn_y, "Instances", obj_enemy)
 }
 
 
